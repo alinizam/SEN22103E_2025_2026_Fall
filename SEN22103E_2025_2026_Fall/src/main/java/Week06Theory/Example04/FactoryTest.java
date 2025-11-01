@@ -9,5 +9,8 @@ package Week06Theory.Example04;
  * @author ali.nizam
  */
 public class FactoryTest {
-    
+    public static void main(String[] args) {
+        Factory f=new Factory();
+        Car c=f.createCar();
+    }
 }
