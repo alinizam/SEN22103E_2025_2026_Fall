@@ -17,7 +17,7 @@ public class Question3 {
            if (x >= y--) {
                 System.out.println("x: " + x + "  y: " + y + " z: "+ z);
            }
-           z = ((z - x)>>1) + y--;
+           z = (z - (x>>1)) + y--;
            x--;
       	}
       	System.out.println("x: " + x + "  y: " + y + " z: "+ z);
