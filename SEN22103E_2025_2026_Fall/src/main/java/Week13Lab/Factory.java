@@ -26,7 +26,7 @@ public class Factory {
                 maxClerkSalary=employee.getSalary()+((Clerk)employee).getCommission();
             }
         }
-    
+        return maxClerkSalary;
     
     
     }
